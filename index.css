@@ -10,7 +10,9 @@
     font-family: 'UbuntuMono';
     
 }
-
+header{
+    height: 100vh;
+}
 
 .navbar{
     width: 100%;
@@ -73,4 +75,8 @@
               }
 
 
-
+/*Datos Covid   */
+table{
+    margin: 0 auto;
+    width: 100%;
+}
