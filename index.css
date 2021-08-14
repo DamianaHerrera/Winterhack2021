@@ -80,3 +80,46 @@ table{
     margin: 0 auto;
     width: 100%;
 }
+.btn-mundial{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+td{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn-mundial{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+      border-radius: 10px;
+}
+
+.btn-1{
+    padding: 10px 20px;
+   background-color: red;
+}
+.btn-1:hover{
+  transform: scale(1.2);
+   transition: all 0.9s ease;
+    }
+.btn-2{
+    padding: 10px 50px;
+    background-color: royalblue;
+}
+.btn-2:hover{
+    transform: scale(1.2);
+    transition: all 0.9s ease;
+}
+.btn-3{
+    padding: 10px 20px;
+    background-color: green;
+}
+.btn-3:hover{
+    transform: scale(1.2);
+    transition: all 0.9s ease;
+}
