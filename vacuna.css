@@ -9,10 +9,15 @@
     padding: 0;
     font-family: 'UbuntuMono';
     }
+   
+    .header{
+        width: 100%;
+        height: 60vh;
+        }
 
 .navbar{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     background-color: #c1e8e8;
 }
 
@@ -24,20 +29,21 @@
 
   .contenedor-header{
       width: 100%;
-      height: 92vh;
+      height: 40vh;
       display: flex;
       justify-content: center;
       align-items: center;
-    
+
 }
 
 .info{
-    height: 82vh; 
+    height: 40vh;
     width: 60%;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: start;
+    padding-top: 50px;
     }
 
 .info h2{
@@ -48,21 +54,19 @@
 
 .info p{
     /* margin-bottom: 300px; */
-    padding-top: 50px;
+    padding: 50px 10px;
 }
 
  .btn{
-    /* margin-bottom: 100px; */
-    height: 82vh;
-        
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-} 
-    
+
+}
+
    .btn-vacuna{
-      
+
             background-color:#c1e8e8;
 			border: none;
 			color: black;
@@ -82,3 +86,145 @@
      border: 2px solid #c1e8e8;
 }
 
+ .contenedor{
+     width: 100%;
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* flex-direction: column; */
+     flex-wrap: wrap;
+     background-color: #3ca0a0;
+}
+
+.contenedor-cards{
+    display: flex;
+    /* flex-direction: column; */
+    width: 60%;
+     height: 70vh;
+    /* background-color: white; */
+    }
+
+    .cards-info{
+        width: 150%;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+    .card-info{
+        margin-top: 50px;
+        width: 50%;
+        height: 450px;
+        /* box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75); */
+        border-radius: 10%;
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+        justify-content:center;
+        padding: 20px;
+        min-width: 250px;
+    }
+
+    .title-info{
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+         }
+
+    .btn-info{
+           width:100%;
+            background-color:transparent;
+			border:2px solid white;
+			color: white;
+			padding: 15px;
+			text-align:start;
+			font-size: 20px;
+			margin: 4px 2px;
+            cursor: pointer;
+			/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+			border-radius: 5px;
+    }
+
+    .btn-info:hover{
+        background-color: #0F7373;
+    }
+   
+     .card{
+        background-color: white;
+        margin-top: 150px;
+        width: 40%;
+        height: 300px;
+        /* box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75); */
+        border-radius: 5px;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        min-width: 250px;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+
+    .card p{
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+.imagenes img{
+    width: 4%;
+    
+}
+.imagenes p{
+    display: inline;
+}
+.imagenes{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-direction: column;
+}
+  
+.imagenes_card{
+    margin-top: 1.2rem;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: #c1e8e8;
+    display: flex;
+    justify-content:space-around;
+   }
+
+.img{
+    margin-right: 70%;
+    padding: 10px 0px 10px 0;
+}
+
+.ul-nav{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+    list-style: none;
+    }
+
+    .item{
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 1.2rem;
+        color: black;
+        text-shadow: 0px 2px 28px #000
+        }
