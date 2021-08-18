@@ -24,7 +24,7 @@
            }
         
         .img{
-            margin-right: 50%;
+            margin-right: 60%;
             padding: 10px 0px 10px 20px;
         }
         
@@ -198,7 +198,9 @@
         margin-bottom: 20px;
     }
 
-.imagenes img{
+    
+
+.imagenes_card img{
     width: 4%;
     
 }
@@ -228,4 +230,43 @@
     margin: 10px;
 }
 
+.contenedor.info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-info{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+   
+   }
+
+    .cards{
+        width: 20%;
+        height: 200px;
+        display: flex;
+         flex-direction: column;
+        justify-content:space-between;
+        margin-top: 100px;
+       
+    }
+
+
+.cards img{
+    width: 15%;
+}
+
+.imagen{
+    align-items: center;
+}
 
