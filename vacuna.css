@@ -265,7 +265,9 @@
 .cards img{
     width: 15%;
 }
-
+.cards li{
+    margin: 20px 0;
+}
 .imagen{
     align-items: center;
 }
