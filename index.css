@@ -53,31 +53,32 @@ header{
         }
 
         .titulo{
-            display: flex;
-            justify-content: center;
-            padding-top:3%;
-            text-transform: uppercase;
-           font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
         }
 
         .conteiner-info{
             width: 100%;
-            height: 50vh;
+            height: 80vh;
             display: flex;
+            align-items: center ;
             
             }
-
+.imagen-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
             .imagen1{
-               margin-top: 5%;
-               margin-left: 4%;
-               padding-right: 10%;
+                width: 400px;
+                height: 350px;
             }
-
+.div-texto{
+    width: 40%;
+}
             .texto{
-                width: 40%;
-                margin-top: 6%;
-                margin-bottom: 6%;
-                font-size: 25px;
+               text-align: center;
+               font-size: 1.5rem;
                
               }
 
@@ -142,3 +143,5 @@ td{
     transform: scale(1.2);
     transition: all 0.9s ease;
 }
+
+/*Main*/
