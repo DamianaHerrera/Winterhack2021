@@ -108,7 +108,7 @@
 
  .contenedor{
      width: 100%;
-     height: 60vh;
+     height: 100vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -295,7 +295,7 @@
            .lista-card a:hover{
                text-decoration: underline;
            }
-           
+
            .lista-card li{
                list-style: none;
                }
