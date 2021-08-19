@@ -15,18 +15,12 @@ header{
 }
 .nav-img{
     display: flex;
-<<<<<<< HEAD
     justify-content:space-around;
    }
 
 .img{
     margin-right: 60%;
     padding: 10px 0px 10px 20px;
-=======
-    width: 50%;
-    justify-content: flex-start;
-    align-items: center;
->>>>>>> footer
 }
 .ul-nav{
     height: 100%;
@@ -38,8 +32,8 @@ header{
     list-style: none;
     }
 .img{
-  width: 75%;
-  margin-left: 15px;
+
+    margin-left: 15px;
 }
 .navbar{
     width: 100%;
