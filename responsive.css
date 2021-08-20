@@ -29,19 +29,27 @@
     .container p{
         font-size: 1rem;
     }
+    
+}
+@media (max-width: 555px ) {
     .btn-nota{
-       margin-top: 25px;
-       padding: 10px;
-    }
-    /* .btn-1{
-        width: 100%;
-    }
-    .btn-2{
-        width: 100%;
-    }
-    .btn-3{
-        width: 100%;
-    } */
+        margin-top: 25px;
+        padding: 10px;
+     }
+     .btn-1{
+         width: 100%;
+         text-align: center;
+         margin: 10px 0 0 0;
+     }
+     .btn-2{
+         width: 100%;
+         text-align: center;
+         margin: 10px 0;
+     }
+     .btn-3{
+         width: 100%;
+         text-align: center;
+     }
 }
 @media (min-width: 769px) and (max-width:1200px) {
     .texto{
