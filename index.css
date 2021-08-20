@@ -15,19 +15,12 @@ header{
 }
 .nav-img{
     display: flex;
-<<<<<<< HEAD
     justify-content:space-around;
    }
 
 .img{
     margin-right: 60%;
     padding: 10px 0px 10px 20px;
-=======
-    width: 50%;
-    justify-content: flex-start;
-    align-items: center;
-  
->>>>>>> responsive1
 }
 .ul-nav{
     height: 100%;

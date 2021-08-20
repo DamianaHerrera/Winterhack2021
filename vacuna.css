@@ -341,7 +341,6 @@
 
             }
 
-<<<<<<< HEAD
             @media (min-width:769px) and (max-width: 1200px){
                 
                 .navbar{
@@ -419,24 +418,3 @@
                 }
                
             }
-=======
-    .item{
-        text-decoration: none;
-        font-weight: 800;
-        font-size: 1.2rem;
-        color: black;
-        text-shadow: 0px 2px 28px #000
-        }
-        /*Footer*/
-        footer{
-            background-color: #c1e8e8;
-            padding: 10px;
-        }
-        footer p{
-            text-align: center;
-        }
-        footer a{
-            color: inherit;
-            text-decoration: none;
-        }
->>>>>>> responsive1
