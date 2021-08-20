@@ -18,6 +18,7 @@ header{
     width: 50%;
     justify-content: flex-start;
     align-items: center;
+  
 }
 .ul-nav{
     height: 100%;
@@ -38,6 +39,7 @@ header{
     background-color: #c1e8e8;
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
    }
 
 
@@ -99,6 +101,7 @@ table{
 .btn-mundial{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px;
     
 }
