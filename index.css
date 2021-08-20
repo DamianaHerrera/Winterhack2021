@@ -126,7 +126,7 @@ td{
 
 .btn-1{
     padding: 10px 20px;
-   background-color: red;
+   background-color:#c1e8e8;
 }
 .btn-1:hover{
   transform: scale(1.2);
@@ -134,7 +134,7 @@ td{
     }
 .btn-2{
     padding: 10px 50px;
-    background-color: royalblue;
+    background-color: #c1e8e8;
 }
 .btn-2:hover{
     transform: scale(1.2);
@@ -142,7 +142,7 @@ td{
 }
 .btn-3{
     padding: 10px 20px;
-    background-color: green;
+    background-color: #c1e8e8;
 }
 .btn-3:hover{
     transform: scale(1.2);
