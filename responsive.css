@@ -1,0 +1,98 @@
+@media (max-width:768px ) {
+    .nav-img{
+        display: none;
+    }
+    .ul-nav{
+        width: 100%;
+        margin-top: 0;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .titulo{
+        margin-bottom: 20px;
+    }
+    .conteiner-info{
+        flex-direction: column;
+    }
+    .imagen1{
+        width: 150px;
+        height: 150px;
+    }
+    .div-texto{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .container{
+        height: 100vh;
+    }
+    .container p{
+        font-size: 1rem;
+    }
+    .containerNoticias{
+        height: 100vh ;
+    }
+   .info{
+       margin-top: 10px;
+       height: 100vh;
+   }
+    .texto{
+        width: 100%;
+        
+    }
+    .imagen{
+        width: 100%;
+    }
+    .imagen_info{
+        height: 200px;
+        text-align: center;
+    }
+    .mas-info{
+        height: 20vh;
+    }
+    .button{
+        height: 10vh;
+        margin-bottom: 40px;
+    }
+    .texto2{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}
+    
+@media (max-width: 555px ) {
+    .btn-nota{
+        margin-top: 25px;
+        padding: 10px;
+     }
+     .btn-1{
+         width: 100%;
+         text-align: center;
+         margin: 10px 0 0 0;
+     }
+     .btn-2{
+         width: 100%;
+         text-align: center;
+         margin: 10px 0;
+     }
+     .btn-3{
+         width: 100%;
+         text-align: center;
+     }
+}
+@media (min-width: 769px) and (max-width:1200px) {
+    .texto{
+        font-size: 1.2rem;
+        text-align: center;
+        
+    }
+    .div-texto{
+        margin-left: 40px;
+    }
+    .container p{
+        font-size: 1.2rem;
+    }
+    .info{
+        margin-bottom: 50px;
+    }
+}
